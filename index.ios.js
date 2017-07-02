@@ -24,7 +24,7 @@ import Navigator from './components/TabNavigator/TabBar'
 import InitScreen from './components/SignUpNavigator/SignUp'
 
 
-class App extends Component {
+export class App extends Component {
   constructor(){
     super()
     this.state = {
